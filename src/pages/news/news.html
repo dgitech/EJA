@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-navbar>
+      <ion-buttons left>
+          <button ion-button icon-only menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+        </ion-buttons>
+        <ion-title text-center>Actualités</ion-title>
+
+    <ion-buttons right>
+        <button ion-button icon-only style="color: #ebebeb">
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+
+
+<ion-content padding>
+  <div padding text-center>
+    <img src="assets/imgs/me_voici.png" alt="">
+  </div>
+
+    <!-- <ion-card *ngFor="let nws of news">
+      <ion-card-content>
+        {{nws.text}}
+      </ion-card-content>
+      <ion-row>
+          <ion-col align-self-center text-left>
+            <ion-note>
+              {{nws.created_at| date:'short'}}
+            </ion-note>
+          </ion-col>
+          <ion-avatar>
+           </ion-avatar>
+          <ion-col ion-button clear text-right (click)="openUrl(nws.url)">
+              Lire la suite
+          </ion-col>
+        </ion-row>
+    </ion-card> -->
+
+    <ion-card *ngFor="let nws of news">
+      <img src="{{nws.images}}"/>
+      <ion-card-content>
+        <ion-card-title>
+          {{nws.text}}
+          </ion-card-title>
+          <ion-row>
+            <ion-col align-self-center text-left>
+              <ion-note>
+                {{nws.created_at| date:'short'}}
+              </ion-note>
+            </ion-col>
+            <ion-col ion-button clear text-right (click)="openUrl(nws.url)">
+                Lire la suite
+            </ion-col>
+          </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+  <!-- <div text-center>
+
+    <h2 style="font-weight:lighter !important">Bientot les JIJ 2019</h2>
+    <p text-wrap>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+  </div>
+
+  <div padding text-center>
+    <button ion-button icon-start round>
+        <ion-icon name="ios-paper-plane"></ion-icon>
+        INSCRIPTION
+      </button>
+  </div> -->
+
+</ion-content>

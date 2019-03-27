@@ -1,0 +1,54 @@
+<ion-header>
+	<ion-navbar color="primary">
+		 <button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title text-center>Articles</ion-title>
+    <ion-buttons right>
+        <button ion-button icon-only style="color: #ebebeb">
+        </button>
+      </ion-buttons>
+	</ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+<!--<  <div padding text-center>
+    img src="assets/imgs/Hands.jpg" alt="">
+  </div>
+  <!-- <ion-card *ngFor="let nws of news">
+    <ion-card-content>
+      {{nws.text}}
+    </ion-card-content>
+    <ion-row>
+        <ion-col align-self-center text-left>
+          <ion-note>
+            {{nws.created_at| date:'short'}}
+          </ion-note>
+        </ion-col>
+        <ion-col ion-button clear text-right (click)="openUrl(nws.url)">
+            Lire la suite
+        </ion-col>
+      </ion-row>
+  </ion-card> -->
+
+  <ion-card *ngFor="let nws of news">
+    <img src="{{nws.images}}"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{nws.text}}
+        </ion-card-title>
+        <ion-row>
+          <ion-col align-self-center text-left>
+            <ion-note>
+              {{nws.created_at| date:'short'}}
+            </ion-note>
+          </ion-col>
+          <ion-col ion-button clear text-right (click)="openUrl(nws.Url)">
+              Lire la suite
+          </ion-col>
+        </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,16 @@
+page-jij {
+  .icontent{
+      background-image: linear-gradient(156deg, #1cb2d7 0%, #427bcc 100%);
+      height: 100%;
+
+      ion-item-divider{
+          background: transparent !important;
+      }
+      ion-item{
+          background: transparent !important;
+          height: 10vh !important;
+          color: white !important;
+          font-weight: lighter !important;
+      }
+  }
+}

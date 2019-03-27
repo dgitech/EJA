@@ -1,0 +1,41 @@
+page-informations {
+
+  ion-content{
+          background-image: linear-gradient(156deg, #1cb2d7 0%, #427bcc 100%) !important;
+      }
+
+      .icontent{
+          background-color: #25A5D4;
+      }
+
+      .toolbar-background {
+          background-color: #01B9FF;
+        }
+      .block{
+          background-color: #25A5D4;
+
+
+      }
+
+     ion-slides{
+         background-color: #25A5D4 !important;
+      //    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+         color: white !important;
+         height: 21vh;
+     }
+
+     ion-col
+     {
+      background-color: #25A5D4 !important;
+      height: 23vh;
+      img{
+          height: 100px;
+          width: 100px;
+      }
+     }
+
+     ion-grid {
+      height: 100% !important;
+     }
+      
+}

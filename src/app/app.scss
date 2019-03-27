@@ -1,0 +1,170 @@
+ion-content{
+  background-color: #f3f8fb!important;
+textarea { height: 20vh; }
+}
+
+h3{
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+.back-button-ios{
+    margin-left: 5px;
+    .back-button-icon-ios {
+       font-size: 2.3rem;
+    }
+}
+.bar-button-ios {
+    font-size: 1.4rem;
+}
+
+
+.tabbar, .tabs-ios, .tabs-md , .tabs-wp{
+    .tab-button-icon {
+        background-repeat:no-repeat;
+        background-position:center;
+        height:40px;
+        width:40px;
+        background-size:contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        &:before {
+            display:none;
+        }
+    }
+}
+
+
+.tabs-ios {
+  a[aria-selected=false]{
+     .tab-button-icon[ng-reflect-name=home],
+     .tab-button-icon[aria-label="home"] {
+      background-image: url(../assets/imgs/home.png);
+    }
+    .tab-button-icon[ng-reflect-name=pie],
+    .tab-button-icon[aria-label=pie] {
+      background-image: url(../assets/imgs/piechart.png);
+    }
+    .tab-button-icon[ng-reflect-name=paper],
+    .tab-button-icon[aria-label=paper] {
+      background-image: url(../assets/imgs/user.png);
+    }
+    .tab-button-icon[ng-reflect-name=list-box],
+    .tab-button-icon[aria-label=list-box] {
+      background-image: url(../assets/imgs/list.png);
+    }
+
+  }
+    }
+
+
+    a[aria-selected=true] {
+       //führ eventuellen text
+       //span {
+          //color: #f00; //whatever colour you want to use for the text
+        //}
+        .tab-button-icon[ng-reflect-name=home],
+        .tab-button-icon[aria-label="home"] {
+         background-image: url(../assets/imgs/home.png);
+        }
+        .tab-button-icon[ng-reflect-name=pie],
+        .tab-button-icon[aria-label=pie] {
+          background-image: url(../assets/imgs/piechart.png);
+        }
+        .tab-button-icon[ng-reflect-name=paper],
+        .tab-button-icon[aria-label=paper] {
+          background-image: url(../assets/imgs/user.png);
+        }
+        .tab-button-icon[ng-reflect-name=list-box],
+        .tab-button-icon[aria-label=list-box] {
+          background-image: url(../assets/imgs/list.png);
+        }
+      }
+
+      .tabs-md {
+  a[aria-selected=false]{
+    .tab-button-icon[ng-reflect-name=home],
+    .tab-button-icon[aria-label="home"] {
+     background-image: url(../assets/imgs/home.png);
+    }
+    .tab-button-icon[ng-reflect-name=pie],
+    .tab-button-icon[aria-label=pie] {
+      background-image: url(../assets/imgs/piechart.png);
+    }
+    .tab-button-icon[ng-reflect-name=paper],
+    .tab-button-icon[aria-label=paper] {
+      background-image: url(../assets/imgs/user.png);
+    }
+    .tab-button-icon[ng-reflect-name=list-box],
+    .tab-button-icon[aria-label=list-box] {
+      background-image: url(../assets/imgs/list.png);
+    }
+  }
+
+ a[aria-selected=true] {
+   //führ eventuellen text
+   //span {
+      //color: #f00; //whatever colour you want to use for the text
+    //}
+    .tab-button-icon[ng-reflect-name=home],
+    .tab-button-icon[aria-label="home"] {
+     background-image: url(../assets/imgs/home.png);
+    }
+    .tab-button-icon[ng-reflect-name=pie],
+    .tab-button-icon[aria-label=pie] {
+      background-image: url(../assets/imgs/piechart.png);
+    }
+    .tab-button-icon[ng-reflect-name=paper],
+    .tab-button-icon[aria-label=paper] {
+      background-image: url(../assets/imgs/user.png);
+      .tab-button-icon[ng-reflect-name=list-box],
+      .tab-button-icon[aria-label=list-box] {
+        background-image: url(../assets/imgs/list.png);
+      }
+  }
+}
+
+.tabs-wp {
+  a[aria-selected=false]{
+    .tab-button-icon[ng-reflect-name=home],
+    .tab-button-icon[aria-label="home"] {
+     background-image: url(../assets/imgs/home.png);
+    }
+    .tab-button-icon[ng-reflect-name=pie],
+    .tab-button-icon[aria-label=pie] {
+      background-image: url(../assets/imgs/piechart.png);
+    }
+    .tab-button-icon[ng-reflect-name=paper],
+    .tab-button-icon[aria-label=paper] {
+      background-image: url(../assets/imgs/user.png);
+    }
+    .tab-button-icon[ng-reflect-name=list-box],
+    .tab-button-icon[aria-label=list-box] {
+      background-image: url(../assets/imgs/list.png);
+    }
+  }
+
+ a[aria-selected=true] {
+   //führ eventuellen text
+   //span {
+      //color: #f00; //whatever colour you want to use for the text
+    //}
+    .tab-button-icon[ng-reflect-name=home],
+    .tab-button-icon[aria-label="home"] {
+     background-image: url(../assets/imgs/home.png);
+    }
+    .tab-button-icon[ng-reflect-name=pie],
+    .tab-button-icon[aria-label=pie] {
+      background-image: url(../assets/imgs/piechart.png);
+    }
+    .tab-button-icon[ng-reflect-name=paper],
+    .tab-button-icon[aria-label=paper] {
+      background-image: url(../assets/imgs/user.png);
+    }
+    .tab-button-icon[ng-reflect-name=list-box],
+    .tab-button-icon[aria-label=list-box] {
+      background-image: url(../assets/imgs/list.png);
+    }
+  }
+    }
+      }

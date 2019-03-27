@@ -1,0 +1,1 @@
+[{"name":"813a4f9134f94955b5f6064439bf0af414afd7f2","index":0,"scopes":["PROJECT"],"types":["DEX"],"format":"JAR","present":true},{"name":":CordovaLib","index":1,"scopes":["SUB_PROJECTS"],"types":["DEX"],"format":"JAR","present":true},{"name":"com.android.support:support-annotations:27.1.1","index":2,"scopes":["EXTERNAL_LIBRARIES"],"types":["DEX"],"format":"JAR","present":true}]
